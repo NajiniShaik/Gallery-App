@@ -1,0 +1,15 @@
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.img {
+  height: 80px;
+  width: 80px;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}

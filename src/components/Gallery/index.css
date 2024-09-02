@@ -1,0 +1,37 @@
+.bg-container {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  padding: 40px;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.by {
+  color: #64748b;
+  font-size: 20px;
+}
+
+.img-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  height: 70vh;
+  width: 100%;
+  max-width: 70vw;
+}
+
+@media (max-width: 768px) {
+  .gallery-img {
+    height: 30vh;
+    max-width: 80vw;
+  }
+}
